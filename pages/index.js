@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default () => (
+const Index = () => (
   <div>
     <h1>Index page</h1>
 
@@ -10,3 +10,5 @@ export default () => (
     </Link>
   </div> 
 )
+
+export default Index
